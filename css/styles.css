@@ -1,0 +1,96 @@
+.Cisco {
+    margin: 0;
+    position: fixed;
+    left: 16%
+}
+
+.top_bar {
+    display: inline-block;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
+.main_title {
+    padding-top: 1%;
+    width: 50%;
+    float: left;
+}
+
+.article_left {
+    padding: 1%;
+    width: 45%;
+    float: left;
+}
+
+.article_right {
+    padding: 1%;
+    width: 45%;
+    float: right;
+}
+
+.footer_ul {
+    list-style: none;
+    padding-left: 10%;
+}
+
+.footer_p {
+    list-style: none;
+    padding-left: 10%;
+    padding-right: 5%;
+}
+
+a:link, a:visited {
+    font-weight: bold;
+    color: rgb(0, 91, 209);
+    padding-left: 1%;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(0, 170, 255);
+    text-shadow: 1px 1px 1px black;
+}
+
+h1 {
+    color: #c71212;
+}
+
+h4 {
+    padding-left: 10%;
+}
+
+nav {
+    text-align: right;
+    width: 30%;
+    float: right;
+    margin-top: 3%;
+}
+
+body {
+    margin: auto;
+    width: 80%;   
+}
+
+footer {
+    text-align: left;
+    width: 100%;
+    position: fixed;
+    left : 0;
+    bottom : 0;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+@media (min-width: 1000px) {
+    .Cisco {
+        margin: 0;
+        position: fixed;
+        left: 14%;
+    }
+}
+
+@media (max-width: 1000px) {
+    body {
+        font-size: xx-large;
+    }
+}
